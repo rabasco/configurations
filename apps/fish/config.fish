@@ -7,3 +7,13 @@ fzf --fish | source
 
 # Enable starship (prompt configurator)
 starship init fish | source
+
+# aliases
+alias wiremock="~/code/ios-app/wiremock/start.sh"
+alias format="~/code/ios-app/BuildTools/CheckSwiftformat/run-swiftformat.sh ../.. --config ../../config.swiftformat"
+alias mocks="~/code/ios-app/Other/scripts/run-automockable.sh"
+alias vpn-on="launchctl load /Library/LaunchAgents/com.paloaltonetworks.gp.pangp*"
+alias vpn-off="launchctl unload /Library/LaunchAgents/com.paloaltonetworks.gp.pangp*"
+
+# Path
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"

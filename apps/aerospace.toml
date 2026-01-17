@@ -103,6 +103,9 @@ alt-shift-l = 'move right'
 alt-shift-minus = 'resize smart -50'
 alt-shift-equal = 'resize smart +50'
 
+# Go to fullscreen mode
+ctrl-f = 'fullscreen'
+
 # See: https://nikitabobko.github.io/AeroSpace/commands#workspace
 alt-1 = 'workspace 1'
 alt-2 = 'workspace 2'
@@ -118,8 +121,7 @@ alt-b = 'workspace B'
 alt-c = 'workspace C'
 alt-d = 'workspace D'
 #alt-e = 'workspace E'
-#alt-f = 'workspace F'
-alt-f = 'fullscreen'
+alt-f = 'workspace F'
 alt-g = 'workspace G'
 alt-i = 'workspace I'
 alt-m = 'workspace M'
@@ -152,7 +154,7 @@ alt-shift-b = 'move-node-to-workspace B'
 alt-shift-c = 'move-node-to-workspace C'
 alt-shift-d = 'move-node-to-workspace D'
 #alt-shift-e = 'move-node-to-workspace E'
-#alt-shift-f = 'move-node-to-workspace F'
+alt-shift-f = 'move-node-to-workspace F'
 alt-shift-g = 'move-node-to-workspace G'
 alt-shift-i = 'move-node-to-workspace I'
 alt-shift-m = 'move-node-to-workspace M'
@@ -178,7 +180,7 @@ alt-shift-tab = 'move-workspace-to-monitor --wrap-around next'
 # See: https://nikitabobko.github.io/AeroSpace/commands#mode
 alt-shift-semicolon = 'mode service'
 
-cmd-enter = 'exec-and-forget open -n /Applications/kitty.app'
+cmd-shift-t = 'exec-and-forget open -n /Applications/kitty.app'
 cmd-shift-b = 'exec-and-forget open -n /Applications/Brave\ Browser.app'
 cmd-shift-f = 'exec-and-forget open ~'
 
